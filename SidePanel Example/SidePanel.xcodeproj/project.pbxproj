@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E665948614B1B5ED005F063E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665948514B1B5ED005F063E /* UIKit.framework */; };
+		E665948814B1B5ED005F063E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665948714B1B5ED005F063E /* Foundation.framework */; };
+		E665948A14B1B5ED005F063E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E665948914B1B5ED005F063E /* CoreGraphics.framework */; };
+		E665949014B1B5ED005F063E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E665948E14B1B5ED005F063E /* InfoPlist.strings */; };
+		E665949214B1B5ED005F063E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E665949114B1B5ED005F063E /* main.m */; };
+		E665949614B1B5ED005F063E /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E665949514B1B5ED005F063E /* SPAppDelegate.m */; };
+		E6BCEE3A14B1B62D00956530 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2714B1B62D00956530 /* Button.png */; };
+		E6BCEE3B14B1B62D00956530 /* ButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2814B1B62D00956530 /* ButtonHighlighted.png */; };
+		E6BCEE3C14B1B62D00956530 /* Dragger.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2914B1B62D00956530 /* Dragger.png */; };
+		E6BCEE3D14B1B62D00956530 /* Dragger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2A14B1B62D00956530 /* Dragger@2x.png */; };
+		E6BCEE3E14B1B62D00956530 /* DraggerSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2B14B1B62D00956530 /* DraggerSelected.png */; };
+		E6BCEE3F14B1B62D00956530 /* DraggerSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2C14B1B62D00956530 /* DraggerSelected@2x.png */; };
+		E6BCEE4014B1B62D00956530 /* SliderMaximumBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2D14B1B62D00956530 /* SliderMaximumBar.png */; };
+		E6BCEE4114B1B62D00956530 /* SliderMinimumBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE2E14B1B62D00956530 /* SliderMinimumBar.png */; };
+		E6BCEE4214B1B62D00956530 /* SPDragger.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BCEE3014B1B62D00956530 /* SPDragger.m */; };
+		E6BCEE4314B1B62D00956530 /* SPPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BCEE3214B1B62D00956530 /* SPPanel.m */; };
+		E6BCEE4414B1B62D00956530 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BCEE3414B1B62D00956530 /* SPViewController.m */; };
+		E6BCEE4514B1B62D00956530 /* SPWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BCEE3614B1B62D00956530 /* SPWindow.m */; };
+		E6BCEE4614B1B62D00956530 /* Thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE3714B1B62D00956530 /* Thumb.png */; };
+		E6BCEE4714B1B62D00956530 /* Window.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE3814B1B62D00956530 /* Window.png */; };
+		E6BCEE4814B1B62D00956530 /* Window@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BCEE3914B1B62D00956530 /* Window@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E665948114B1B5ED005F063E /* SidePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E665948514B1B5ED005F063E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E665948714B1B5ED005F063E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E665948914B1B5ED005F063E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E665948D14B1B5ED005F063E /* SidePanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SidePanel-Info.plist"; sourceTree = "<group>"; };
+		E665948F14B1B5ED005F063E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E665949114B1B5ED005F063E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E665949314B1B5ED005F063E /* SidePanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SidePanel-Prefix.pch"; sourceTree = "<group>"; };
+		E665949414B1B5ED005F063E /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		E665949514B1B5ED005F063E /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		E6BCEE2714B1B62D00956530 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		E6BCEE2814B1B62D00956530 /* ButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonHighlighted.png; sourceTree = "<group>"; };
+		E6BCEE2914B1B62D00956530 /* Dragger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dragger.png; sourceTree = "<group>"; };
+		E6BCEE2A14B1B62D00956530 /* Dragger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dragger@2x.png"; sourceTree = "<group>"; };
+		E6BCEE2B14B1B62D00956530 /* DraggerSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DraggerSelected.png; sourceTree = "<group>"; };
+		E6BCEE2C14B1B62D00956530 /* DraggerSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DraggerSelected@2x.png"; sourceTree = "<group>"; };
+		E6BCEE2D14B1B62D00956530 /* SliderMaximumBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderMaximumBar.png; sourceTree = "<group>"; };
+		E6BCEE2E14B1B62D00956530 /* SliderMinimumBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderMinimumBar.png; sourceTree = "<group>"; };
+		E6BCEE2F14B1B62D00956530 /* SPDragger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDragger.h; sourceTree = "<group>"; };
+		E6BCEE3014B1B62D00956530 /* SPDragger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDragger.m; sourceTree = "<group>"; };
+		E6BCEE3114B1B62D00956530 /* SPPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPanel.h; sourceTree = "<group>"; };
+		E6BCEE3214B1B62D00956530 /* SPPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPanel.m; sourceTree = "<group>"; };
+		E6BCEE3314B1B62D00956530 /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		E6BCEE3414B1B62D00956530 /* SPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		E6BCEE3514B1B62D00956530 /* SPWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWindow.h; sourceTree = "<group>"; };
+		E6BCEE3614B1B62D00956530 /* SPWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWindow.m; sourceTree = "<group>"; };
+		E6BCEE3714B1B62D00956530 /* Thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thumb.png; sourceTree = "<group>"; };
+		E6BCEE3814B1B62D00956530 /* Window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Window.png; sourceTree = "<group>"; };
+		E6BCEE3914B1B62D00956530 /* Window@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Window@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E665947E14B1B5ED005F063E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E665948614B1B5ED005F063E /* UIKit.framework in Frameworks */,
+				E665948814B1B5ED005F063E /* Foundation.framework in Frameworks */,
+				E665948A14B1B5ED005F063E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E665947614B1B5ED005F063E = {
+			isa = PBXGroup;
+			children = (
+				E665948B14B1B5ED005F063E /* SidePanel */,
+				E665948414B1B5ED005F063E /* Frameworks */,
+				E665948214B1B5ED005F063E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E665948214B1B5ED005F063E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E665948114B1B5ED005F063E /* SidePanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E665948414B1B5ED005F063E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E665948514B1B5ED005F063E /* UIKit.framework */,
+				E665948714B1B5ED005F063E /* Foundation.framework */,
+				E665948914B1B5ED005F063E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E665948B14B1B5ED005F063E /* SidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				E6BCEE2F14B1B62D00956530 /* SPDragger.h */,
+				E6BCEE3014B1B62D00956530 /* SPDragger.m */,
+				E6BCEE3114B1B62D00956530 /* SPPanel.h */,
+				E6BCEE3214B1B62D00956530 /* SPPanel.m */,
+				E6BCEE3314B1B62D00956530 /* SPViewController.h */,
+				E6BCEE3414B1B62D00956530 /* SPViewController.m */,
+				E6BCEE3514B1B62D00956530 /* SPWindow.h */,
+				E6BCEE3614B1B62D00956530 /* SPWindow.m */,
+				E6BCEE3714B1B62D00956530 /* Thumb.png */,
+				E6BCEE3814B1B62D00956530 /* Window.png */,
+				E6BCEE3914B1B62D00956530 /* Window@2x.png */,
+				E665949414B1B5ED005F063E /* SPAppDelegate.h */,
+				E665949514B1B5ED005F063E /* SPAppDelegate.m */,
+				E6BCEE4A14B1B63100956530 /* Images */,
+				E665948C14B1B5ED005F063E /* Supporting Files */,
+			);
+			path = SidePanel;
+			sourceTree = "<group>";
+		};
+		E665948C14B1B5ED005F063E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E665948D14B1B5ED005F063E /* SidePanel-Info.plist */,
+				E665948E14B1B5ED005F063E /* InfoPlist.strings */,
+				E665949114B1B5ED005F063E /* main.m */,
+				E665949314B1B5ED005F063E /* SidePanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6BCEE4A14B1B63100956530 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E6BCEE2714B1B62D00956530 /* Button.png */,
+				E6BCEE2814B1B62D00956530 /* ButtonHighlighted.png */,
+				E6BCEE2914B1B62D00956530 /* Dragger.png */,
+				E6BCEE2A14B1B62D00956530 /* Dragger@2x.png */,
+				E6BCEE2B14B1B62D00956530 /* DraggerSelected.png */,
+				E6BCEE2C14B1B62D00956530 /* DraggerSelected@2x.png */,
+				E6BCEE2D14B1B62D00956530 /* SliderMaximumBar.png */,
+				E6BCEE2E14B1B62D00956530 /* SliderMinimumBar.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E665948014B1B5ED005F063E /* SidePanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E665949914B1B5ED005F063E /* Build configuration list for PBXNativeTarget "SidePanel" */;
+			buildPhases = (
+				E665947D14B1B5ED005F063E /* Sources */,
+				E665947E14B1B5ED005F063E /* Frameworks */,
+				E665947F14B1B5ED005F063E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidePanel;
+			productName = SidePanel;
+			productReference = E665948114B1B5ED005F063E /* SidePanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E665947814B1B5ED005F063E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = i3Software;
+			};
+			buildConfigurationList = E665947B14B1B5ED005F063E /* Build configuration list for PBXProject "SidePanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E665947614B1B5ED005F063E;
+			productRefGroup = E665948214B1B5ED005F063E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E665948014B1B5ED005F063E /* SidePanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E665947F14B1B5ED005F063E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E665949014B1B5ED005F063E /* InfoPlist.strings in Resources */,
+				E6BCEE3A14B1B62D00956530 /* Button.png in Resources */,
+				E6BCEE3B14B1B62D00956530 /* ButtonHighlighted.png in Resources */,
+				E6BCEE3C14B1B62D00956530 /* Dragger.png in Resources */,
+				E6BCEE3D14B1B62D00956530 /* Dragger@2x.png in Resources */,
+				E6BCEE3E14B1B62D00956530 /* DraggerSelected.png in Resources */,
+				E6BCEE3F14B1B62D00956530 /* DraggerSelected@2x.png in Resources */,
+				E6BCEE4014B1B62D00956530 /* SliderMaximumBar.png in Resources */,
+				E6BCEE4114B1B62D00956530 /* SliderMinimumBar.png in Resources */,
+				E6BCEE4614B1B62D00956530 /* Thumb.png in Resources */,
+				E6BCEE4714B1B62D00956530 /* Window.png in Resources */,
+				E6BCEE4814B1B62D00956530 /* Window@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E665947D14B1B5ED005F063E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E665949214B1B5ED005F063E /* main.m in Sources */,
+				E665949614B1B5ED005F063E /* SPAppDelegate.m in Sources */,
+				E6BCEE4214B1B62D00956530 /* SPDragger.m in Sources */,
+				E6BCEE4314B1B62D00956530 /* SPPanel.m in Sources */,
+				E6BCEE4414B1B62D00956530 /* SPViewController.m in Sources */,
+				E6BCEE4514B1B62D00956530 /* SPWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E665948E14B1B5ED005F063E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E665948F14B1B5ED005F063E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E665949714B1B5ED005F063E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E665949814B1B5ED005F063E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E665949A14B1B5ED005F063E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidePanel/SidePanel-Prefix.pch";
+				INFOPLIST_FILE = "SidePanel/SidePanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E665949B14B1B5ED005F063E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SidePanel/SidePanel-Prefix.pch";
+				INFOPLIST_FILE = "SidePanel/SidePanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E665947B14B1B5ED005F063E /* Build configuration list for PBXProject "SidePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E665949714B1B5ED005F063E /* Debug */,
+				E665949814B1B5ED005F063E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E665949914B1B5ED005F063E /* Build configuration list for PBXNativeTarget "SidePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E665949A14B1B5ED005F063E /* Debug */,
+				E665949B14B1B5ED005F063E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E665947814B1B5ED005F063E /* Project object */;
+}
